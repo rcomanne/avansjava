@@ -2,15 +2,11 @@ package avans.autobelasting;
 
 import java.util.*;
 
-public class AutoBelastingManager
-{
-
+public class AutoBelastingManager {
     private ArrayList<Auto> voertuigen;
 
-
-    public AutoBelastingManager()
-    {
-        voertuigen = new ArrayList<Auto>();
+    public AutoBelastingManager() {
+        voertuigen = new ArrayList<>();
     }
 
     public int aantalVoertuigen()
@@ -35,7 +31,6 @@ public class AutoBelastingManager
         }
         return hoogsteBijtelling;
     }
-
 
     public ArrayList<Eigenaar> geefEigenarenVoorBrandstof (String brandstof) {
         ArrayList<Eigenaar> eigenaren = new ArrayList<>();
